@@ -94,7 +94,7 @@ aws ssm send-command
 
 # CloudWatch Logs
 
-<cloudwatch-logs.png>
+![cloudwatch-logs](/cloudwatch-logs.png)
 
 The Web Server generates two types of log data:
 
@@ -103,9 +103,9 @@ The Web Server generates two types of log data:
 
 #CloudWatch Metricx
 
-<cloudwatch-metrics.png>
+![](/cloudwatch-metrics.png)
 
 
 # CloudWatch Events 
 
-<cloudwatch-events.png>
+![](/cloudwatch-events.png)
