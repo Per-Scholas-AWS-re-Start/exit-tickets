@@ -1,10 +1,14 @@
+# WEEK 11 DAY 1 
 
+# MONTITORING AND METRICS 
 
+# CLOUDWATCH, AGENT, LOGS, METRICS, AND EVENTS
 
+## CloudWatch Agents
 
 <cloudwatch-agent-w11-d1.png>
 
-
+```PowerShell
 aws ssm send-command 
   --document-name "AWS-ConfigureAWSPackage" 
   --document-version "1" 
@@ -14,7 +18,7 @@ aws ssm send-command
   --max-concurrency "50" 
   --max-errors "0" 
   --region us-west-2
-  
+```
   
   
   
